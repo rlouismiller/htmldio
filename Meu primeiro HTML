@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>Resumão das Primeiras Aulas da Dio</title>
+</head>
+
+<body>
+    <h1 id="inicio">Resumão das aulas da DIO:</h1>
+    <hr />
+    <ol>
+        <h2>
+            <li><a href=#Introdução>Introdução</a></li>
+            <li><a href=#tags>Tags mais comuns</a></li>
+            <li><a href=#listas>Listas</a></li>
+            <li><a href=#links>Links</a></li>
+        </h2>
+    </ol>
+    <hr>
+
+    <h2 id="Introdução">1. Introdução</h2>
+
+    Toda a estrutura HTML precisa estar contida nessa estrutura simples de texto:</p>
+    < html> <br>
+        < head> <br>
+            < title><i> Vai ser visto na ABA do navegador </i>
+                < /title> <br>
+
+                    < /head> <br>
+                        < body> <br>
+                            <i> Aqui vai ficar <strong>todo</strong> o conteúdo do seu site. </i>
+                            < /body><br>
+                                < /html>
+
+
+                                    <p>
+                                        Note que as tags precisam de abertura e fechamento para funcionar corretamente,
+                                        delimitando seus espaços de ação;
+                                        O fechamento dessas tags sempre será representado por um "/" antes do nome da
+                                        mesma.</p>
+                                    <ul>
+                                        <li>HTML define toda a arquitetura html;</li>
+                                        <li>HEAD é a "cabeça" da página, onde fica localizado o título da mesma;</li>
+                                        <li>O título da página, visualizada na aba do navegador, deve ser colocado entre
+                                            as tags TITLE;</li>
+                                        <li>O conteúdo da página, aqulio que estará visível para os usuários, estará em
+                                            BODY.</li>
+                                        <li>A maioria das tags aceitam um ou mais atributos que adicionam ou alteram
+                                            características. </li>
+
+                                    </ul>
+                                    <p><small><a href="#inicio">voltar</a></small></p>
+
+
+
+                                    <hr>
+                                    <h2 id="tags">2. Tags mais Comuns</h2>
+                                    <p>Algumas tags muito usadas na <strong>formatação dos textos</strong> em HTML são:
+                                    <ul>
+                                        <li>
+                                            < p> para delimitar parágrafos;
+                                        </li>
+                                        <li>
+                                            < br> para quebrar <br> linhas de texto;
+                                        </li>
+                                        <li>
+                                            < strong> para <strong>negrito</strong>;
+                                        </li>
+                                        <li>
+                                            < i> para <i>itálico</i>
+                                        </li>
+                                        <li>
+                                            < u> para <u>sublinhar</u> textos;
+                                        </li>
+                                        <li>
+                                            < hr> para criar "linhas" de separação de conteúdo. <strong>Essa não precisa
+                                                    de fechamento;</strong>
+                                        <li>
+                                            < mark> para criar <mark>marcações</mark> no texto
+                                        </li>
+                                        <li>
+                                            < small > para criar <small>textos pequenos</small>
+                                        </li>
+                                        <li>
+                                            < sub> cria textos <sub>subescritos</sub>;
+                                        </li>
+                                        <li>
+                                            < sup> cria textos <sup>sobrescritos</sup>;
+                                        </li>
+                                        <li>
+                                            < h1> para indicar níveis de títulos. <strong> Pode ser um valor entre 1 a
+                                                    7;</strong>
+                                                    <li>
+                                                        < del > "risca" <del>letras</del> palavras.
+                                                    </li>
+                                                    <li>
+                                                        < blockcote > destaca uma citação de um site externo;
+                                                    </li>
+                                        </li>
+                                    </ul>
+                                    <p><small><a href="#inicio">voltar</a></small></p>
+                                    </p>
+                                    <hr>
+                                    <h2 id="listas">3. Listas</h2>
+                                    o HTML permite a construção de estruturas de listas para melhorar a organização do
+                                    conteúdo. <br>
+                                    Podemos criar listas ordenadas (numéricas) e não-ordenadas.
+                                    <p>Essas listas são construídas pela tags < ol> (ordenadas) ou < ul> (não ordenadas)
+                                                e a tag < li> define seus itens, item por item.</p>
+                                    <p><small><a href="#inicio">voltar</a></small></p>
+                                    <hr>
+                                    <h2 id="links">4. Links</h2>
+                                    <p>links são caminhos para outros arquivos HTML. Podem ser externos ou internos ao
+                                        site</p>
+                                    <p>A sintaxe básica das tags de link é <strong>
+                                            < a>
+                                        </strong> e o seu principal atributo, exclusivo, é o <strong>href=</strong> que
+                                        indica o caminho.
+                                    <ul>
+                                        <li>
+                                            < a href="pagina.html">, por exemplo, te direciona a uma outra página dentro
+                                                do seu site.
+                                        </li>
+                                        <li>
+                                            < a href="http://www.outrapagina.html">, te direciona a uma página fora do
+                                                seu site
+                                        </li>
+                                        <li>Além do atributo href, também aceita o atributo <strong>target=</strong>,
+                                            que indica onde a página será aberta. <br>
+                                            No caso, na mesma aba (_self) ou em outra aba (_blank)</li>
+                                        <li>Por últimos, os links aceitam <strong>ancoragem</strong>, que nada mais é do
+                                            que você navegar dentro da própria página através de âncoras. <br>
+                                            Para isso, você precisa adicionar um atributo <strong>id=</strong> nos
+                                            níveis de título que você escolher e nomear o <strong>href=</strong> da sua
+                                            tag de link como <strong>#nomedolink</strong>
+                                        </li>
+
+                                    </ul>
+                                    <p><small><a href="#inicio">voltar</a></small></p>
+
+                                    <hr>
+                                    referência: <a href="https://www.w3schools.com/html/default.asp">w3schools</a>
+</body>
+</html>
